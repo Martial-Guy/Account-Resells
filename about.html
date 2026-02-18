@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - StreamVault</title>
+  <meta name="description" content="Learn about StreamVault's mission to make premium streaming accessible to everyone. Trusted by 10,000+ customers worldwide.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">StreamVault</a>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link" data-lang="en">Home</a><a href="index.html" class="nav-link" data-lang="fr">Accueil</a></li>
+        <li class="dropdown">
+          <span class="dropdown-toggle" data-lang="en">Platforms <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+          <span class="dropdown-toggle" data-lang="fr">Plateformes <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+          <div class="dropdown-menu">
+            <a href="netflix.html" class="dropdown-item netflix">
+              <span class="platform-icon">N</span>
+              <span>Netflix</span>
+            </a>
+            <a href="spotify.html" class="dropdown-item spotify">
+              <span class="platform-icon">S</span>
+              <span>Spotify</span>
+            </a>
+            <a href="crunchyroll.html" class="dropdown-item crunchyroll">
+              <span class="platform-icon">C</span>
+              <span>Crunchyroll</span>
+            </a>
+            <a href="apple-music.html" class="dropdown-item apple">
+              <span class="platform-icon">A</span>
+              <span>Apple Music</span>
+            </a>
+          </div>
+        </li>
+        <li><a href="about.html" class="nav-link active" data-lang="en">About</a><a href="about.html" class="nav-link active" data-lang="fr">À Propos</a></li>
+        <li><a href="contact.html" class="nav-link" data-lang="en">Contact</a><a href="contact.html" class="nav-link" data-lang="fr">Contact</a></li>
+      </ul>
+      
+      <!-- Language Switcher -->
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-set-lang="en">EN</button>
+        <button class="lang-btn" data-set-lang="fr">FR</button>
+      </div>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-link" data-lang="en">Home</a>
+    <a href="index.html" class="mobile-link" data-lang="fr">Accueil</a>
+    <a href="netflix.html" class="mobile-link">Netflix</a>
+    <a href="spotify.html" class="mobile-link">Spotify</a>
+    <a href="crunchyroll.html" class="mobile-link">Crunchyroll</a>
+    <a href="apple-music.html" class="mobile-link">Apple Music</a>
+    <a href="about.html" class="mobile-link active" data-lang="en">About</a>
+    <a href="about.html" class="mobile-link active" data-lang="fr">À Propos</a>
+    <a href="contact.html" class="mobile-link" data-lang="en">Contact</a>
+    <a href="contact.html" class="mobile-link" data-lang="fr">Contact</a>
+    
+    <!-- Mobile Language Switcher -->
+    <div class="mobile-lang-switcher">
+      <button class="lang-btn active" data-set-lang="en">EN</button>
+      <button class="lang-btn" data-set-lang="fr">FR</button>
+    </div>
+    
+  </div>
+
+  <!-- About Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag" data-lang="en">ABOUT US</span>
+      <span class="section-tag" data-lang="fr">À PROPOS DE NOUS</span>
+      <h1 class="page-title" data-lang="en">Our Story</h1>
+      <h1 class="page-title" data-lang="fr">Notre Histoire</h1>
+      <p class="page-subtitle" data-lang="en">
+        StreamVault was born from a simple idea: everyone deserves access to premium entertainment 
+        without breaking the bank. What started as a small side project has grown into a trusted 
+        platform serving thousands of happy customers worldwide.
+      </p>
+      <p class="page-subtitle" data-lang="fr">
+        StreamVault est né d'une idée simple: tout le monde mérite d'avoir accès à un divertissement 
+        premium sans se ruiner. Ce qui a commencé comme un petit projet parallèle est devenu une 
+        plateforme de confiance desservant des milliers de clients satisfaits dans le monde entier.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-value">10,000+</span>
+          <span class="stat-label" data-lang="en">Happy Customers</span>
+          <span class="stat-label" data-lang="fr">Clients Satisfaits</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">50,000+</span>
+          <span class="stat-label" data-lang="en">Accounts Sold</span>
+          <span class="stat-label" data-lang="fr">Comptes Vendus</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">99.9%</span>
+          <span class="stat-label" data-lang="en">Uptime</span>
+          <span class="stat-label" data-lang="fr">Disponibilité</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">2min</span>
+          <span class="stat-label" data-lang="en">Avg. Response</span>
+          <span class="stat-label" data-lang="fr">Réponse Moy.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission-section">
+    <div class="container">
+      <div class="mission-grid">
+        <div class="mission-content">
+          <h2 data-lang="en">Our Mission</h2>
+          <h2 data-lang="fr">Notre Mission</h2>
+          <p data-lang="en">
+            We believe that premium entertainment should be accessible to everyone. Our mission is to 
+            bridge the gap between high-quality streaming services and affordable pricing, making it 
+            possible for anyone to enjoy their favorite movies, shows, and music without financial stress.
+          </p>
+          <p data-lang="fr">
+            Nous croyons que le divertissement premium devrait être accessible à tous. Notre mission est 
+            de combler le fossé entre les services de streaming de haute qualité et des prix abordables, 
+            permettant à chacun de profiter de ses films, séries et musiques préférés sans stress financier.
+          </p>
+          <p data-lang="en">
+            By leveraging family plans, promotional partnerships, and bulk purchasing, we're able to 
+            offer legitimate accounts at a fraction of the retail cost — savings we pass directly to you.
+          </p>
+          <p data-lang="fr">
+            En utilisant des forfaits familiaux, des partenariats promotionnels et des achats en gros, 
+            nous pouvons offrir des comptes légitimes à une fraction du coût de détail — des économies 
+            que nous vous transmettons directement.
+          </p>
+        </div>
+        <div class="mission-visual">
+          <div class="award-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="values-section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang="en">Our Values</h2>
+      <h2 class="section-title text-center" data-lang="fr">Nos Valeurs</h2>
+      
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3 data-lang="en">Customer First</h3>
+          <h3 data-lang="fr">Client d'Abord</h3>
+          <p data-lang="en">Everything we do is centered around providing the best experience for our customers.</p>
+          <p data-lang="fr">Tout ce que nous faisons est centré sur la fourniture de la meilleure expérience pour nos clients.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          </div>
+          <h3 data-lang="en">Trust & Security</h3>
+          <h3 data-lang="fr">Confiance & Sécurité</h3>
+          <p data-lang="en">We prioritize your security with encrypted payments and verified accounts.</p>
+          <p data-lang="fr">Nous priorisons votre sécurité avec des paiements cryptés et des comptes vérifiés.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+          </div>
+          <h3 data-lang="en">Passion for Streaming</h3>
+          <h3 data-lang="fr">Passion pour le Streaming</h3>
+          <p data-lang="en">We're streamers too. We understand what you need because we use these services daily.</p>
+          <p data-lang="fr">Nous sommes aussi des streamers. Nous comprenons ce dont vous avez besoin car nous utilisons ces services quotidiennement.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <h3 data-lang="en">Continuous Improvement</h3>
+          <h3 data-lang="fr">Amélioration Continue</h3>
+          <p data-lang="en">We're always looking for ways to improve our service and expand our offerings.</p>
+          <p data-lang="fr">Nous cherchons toujours des moyens d'améliorer notre service et d'élargir notre offre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="cta-bg"></div>
+    <div class="cta-overlay"></div>
+    <div class="cta-vignette"></div>
+    
+    <div class="cta-content">
+      <h2 class="cta-title" data-lang="en">Ready to Join Us?</h2>
+      <h2 class="cta-title" data-lang="fr">Prêt à Nous Rejoindre?</h2>
+      <p class="cta-subtitle" data-lang="en">Start saving on your favorite streaming services today</p>
+      <p class="cta-subtitle" data-lang="fr">Commencez à économiser sur vos services de streaming préférés dès aujourd'hui</p>
+      
+      <a href="https://wa.me/696408297" target="_blank" rel="noopener" class="cta-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        <span data-lang="en">Chat on WhatsApp</span>
+        <span data-lang="fr">Discuter sur WhatsApp</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">StreamXora</a>
+          <p class="footer-tagline" data-lang="en">Premium streaming accounts at unbeatable prices. Instant delivery, lifetime warranty.</p>
+          <p class="footer-tagline" data-lang="fr">Comptes streaming premium à prix imbattables. Livraison instantanée, garantie à vie.</p>
+          <a href="https://wa.me/696408297" target="_blank" rel="noopener" class="footer-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            <span data-lang="en">WhatsApp Support</span>
+            <span data-lang="fr">Support WhatsApp</span>
+          </a>
+        </div>
+        
+        <div class="footer-column">
+          <h4 data-lang="en">Services</h4>
+          <h4 data-lang="fr">Services</h4>
+          <ul>
+            <li><span>Netflix Accounts</span></li>
+            <li><span>Spotify Premium</span></li>
+            <li><span>Crunchyroll Premium</span></li>
+            <li><span>Apple Music</span></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4 data-lang="en">Company</h4>
+          <h4 data-lang="fr">Entreprise</h4>
+          <ul>
+            <li><a href="about.html" data-lang="en">About Us</a><a href="about.html" data-lang="fr">À Propos</a></li>
+            <li><a href="index.html#how-it-works" data-lang="en">How It Works</a><a href="index.html#how-it-works" data-lang="fr">Comment Ça Marche</a></li>
+            <li><a href="index.html#pricing" data-lang="en">Pricing</a><a href="index.html#pricing" data-lang="fr">Tarifs</a></li>
+            <li><a href="index.html#faq" data-lang="en">FAQ</a><a href="index.html#faq" data-lang="fr">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4 data-lang="en">Support</h4>
+          <h4 data-lang="fr">Support</h4>
+          <ul>
+            <li><a href="contact.html" data-lang="en">Contact Us</a><a href="contact.html" data-lang="fr">Contactez-Nous</a></li>
+            <li><a href="#" data-lang="en">Refund Policy</a><a href="#" data-lang="fr">Politique de Remboursement</a></li>
+            <li><a href="#" data-lang="en">Terms of Service</a><a href="#" data-lang="fr">Conditions d'Utilisation</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 StreamXora. <span data-lang="en">All rights reserved.</span><span data-lang="fr">Tous droits réservés.</span></p>
+        <p><span data-lang="en">Made with</span><span data-lang="fr">Fait avec</span> <span class="heart">&#9829;</span> <span data-lang="en">for streamers worldwide</span><span data-lang="fr">pour les streamers du monde entier</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
